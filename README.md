@@ -34,7 +34,7 @@ python3 server.py
 ```
 Then visit [http://localhost:8080](http://localhost:8080).
 
-## Project Structure
+## Project  Structure
 
 ```
 hello-world-polyglot/
