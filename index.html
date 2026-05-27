@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World · Polyglot</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">{ polyglot }</div>
+    <p class="tagline">Hello World in every tongue</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <button class="btn active" data-lang="all">All</button>
+      <button class="btn" data-lang="web">Web</button>
+      <button class="btn" data-lang="backend">Backend</button>
+      <button class="btn" data-lang="scripting">Scripting</button>
+    </div>
+
+    <div class="grid" id="cards-grid">
+
+      <div class="card" data-category="web">
+        <span class="lang-tag html">HTML</span>
+        <pre><code>&lt;h1&gt;Hello, World!&lt;/h1&gt;</code></pre>
+        <div class="card-footer">
+          <span class="dot"></span> Web markup
+        </div>
+      </div>
+
+      <div class="card" data-category="web">
+        <span class="lang-tag css">CSS</span>
+        <pre><code>h1::before {
+  content: "Hello, World!";
+}</code></pre>
+        <div class="card-footer">
+          <span class="dot"></span> Styling language
+        </div>
+      </div>
+
+      <div class="card" data-category="web">
+        <span class="lang-tag js">JavaScript</span>
+        <pre><code>console.log("Hello, World!");</code></pre>
+        <div class="card-footer">
+          <span class="dot"></span> Web scripting
+        </div>
+      </div>
+
+      <div class="card" data-category="backend">
+        <span class="lang-tag python">Python</span>
+        <pre><code>print("Hello, World!")</code></pre>
+        <div class="card-footer">
+          <span class="dot"></span> General purpose
+        </div>
+      </div>
+
+      <div class="card" data-category="scripting">
+        <span class="lang-tag bash">Bash</span>
+        <pre><code>echo "Hello, World!"</code></pre>
+        <div class="card-footer">
+          <span class="dot"></span> Shell scripting
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Built with 5 languages · <a href="https://github.com" target="_blank">View on GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
